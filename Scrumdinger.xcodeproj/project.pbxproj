@@ -27,6 +27,7 @@
 		67AB80D02922D0B0000977F4 /* ScrumProgressViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67AB80CF2922D0B0000977F4 /* ScrumProgressViewStyle.swift */; };
 		67AB80D22922D10F000977F4 /* ScrumTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67AB80D12922D10F000977F4 /* ScrumTimer.swift */; };
 		67AB80D62922D2BE000977F4 /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67AB80D52922D2BE000977F4 /* MeetingFooterView.swift */; };
+		67AB80D82922D6CD000977F4 /* AVPlater+Ding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67AB80D72922D6CD000977F4 /* AVPlater+Ding.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		67AB80CF2922D0B0000977F4 /* ScrumProgressViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumProgressViewStyle.swift; sourceTree = "<group>"; };
 		67AB80D12922D10F000977F4 /* ScrumTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumTimer.swift; sourceTree = "<group>"; };
 		67AB80D52922D2BE000977F4 /* MeetingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooterView.swift; sourceTree = "<group>"; };
+		67AB80D72922D6CD000977F4 /* AVPlater+Ding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVPlater+Ding.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +174,7 @@
 				67AB80BD291EAF17000977F4 /* DailyScrum.swift */,
 				67AB80C1291EB1EB000977F4 /* TrailingIconLabelStyle.swift */,
 				67AB80D12922D10F000977F4 /* ScrumTimer.swift */,
+				67AB80D72922D6CD000977F4 /* AVPlater+Ding.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -316,6 +319,7 @@
 				67AB80C2291EB1EB000977F4 /* TrailingIconLabelStyle.swift in Sources */,
 				67AB80BC291EAD76000977F4 /* Theme.swift in Sources */,
 				67AB80C4291EB399000977F4 /* ScrumsView.swift in Sources */,
+				67AB80D82922D6CD000977F4 /* AVPlater+Ding.swift in Sources */,
 				67AB80C82922821F000977F4 /* DetailEditView.swift in Sources */,
 				67AB8092291EA9D6000977F4 /* MeetingView.swift in Sources */,
 				67AB8090291EA9D6000977F4 /* ScrumdingerApp.swift in Sources */,
