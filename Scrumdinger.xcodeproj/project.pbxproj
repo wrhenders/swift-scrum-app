@@ -29,6 +29,7 @@
 		67AB80D62922D2BE000977F4 /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67AB80D52922D2BE000977F4 /* MeetingFooterView.swift */; };
 		67AB80D82922D6CD000977F4 /* AVPlater+Ding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67AB80D72922D6CD000977F4 /* AVPlater+Ding.swift */; };
 		67AB80DA2922E1F5000977F4 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67AB80D92922E1F5000977F4 /* History.swift */; };
+		67AB80DC2922E578000977F4 /* ScrumStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67AB80DB2922E578000977F4 /* ScrumStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		67AB80D52922D2BE000977F4 /* MeetingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooterView.swift; sourceTree = "<group>"; };
 		67AB80D72922D6CD000977F4 /* AVPlater+Ding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVPlater+Ding.swift"; sourceTree = "<group>"; };
 		67AB80D92922E1F5000977F4 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		67AB80DB2922E578000977F4 /* ScrumStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +180,7 @@
 				67AB80D12922D10F000977F4 /* ScrumTimer.swift */,
 				67AB80D72922D6CD000977F4 /* AVPlater+Ding.swift */,
 				67AB80D92922E1F5000977F4 /* History.swift */,
+				67AB80DB2922E578000977F4 /* ScrumStore.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -316,6 +319,7 @@
 				67AB80CC2922890E000977F4 /* ThemePicker.swift in Sources */,
 				67AB80D02922D0B0000977F4 /* ScrumProgressViewStyle.swift in Sources */,
 				67AB80D62922D2BE000977F4 /* MeetingFooterView.swift in Sources */,
+				67AB80DC2922E578000977F4 /* ScrumStore.swift in Sources */,
 				67AB80D22922D10F000977F4 /* ScrumTimer.swift in Sources */,
 				67AB80BE291EAF17000977F4 /* DailyScrum.swift in Sources */,
 				67AB80C6291EBA3E000977F4 /* DetailView.swift in Sources */,
@@ -495,7 +499,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
@@ -503,7 +507,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ryan.Scrumdinger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -531,7 +537,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
@@ -539,7 +545,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ryan.Scrumdinger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
